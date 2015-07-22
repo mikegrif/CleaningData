@@ -1,15 +1,15 @@
-# Getting and Cleaning Data Course Project
+## Getting and Cleaning Data Course Project
 
-## Overview 
-This document contains information on how to use the *run_analysis.R* script that implements the requirements for **Coursera's Getting and Cleanng Data** course project. The script uses the packages below which are automatically loaded when you run it.
+### Overview 
+This document contains information on how to use the *run_analysis.R* script that implements the requirements for **Coursera's Getting and Cleaning Data** course project. The script uses the packages below which are automatically loaded when you run it.
 - dplyr
 - tidyr
 
 When you run the script, it will call methods within the script to perform each step specified in the requirments. Please refer to the **Running the Script** section below for more information.
 
-## Configuring Your Workspace to Run Script
+### Configuring Your Workspace to Run Script
 
-1. Copy the script to your working directory
+1. Copy the **run_analysis.R** script to your working directory
 2. Create the following directories under your working directory:
    + data
    + data/testing
@@ -26,7 +26,7 @@ When you run the script, it will call methods within the script to perform each 
 
 
 
-## Running the Script
+### Running the Script
 1. Source the script by entering command: *source("run_analysis.R")*
 2. Run the script by entering command: *do_analysis()*
 3. The *do_analysis()* method will do the following:
