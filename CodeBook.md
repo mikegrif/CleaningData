@@ -94,10 +94,25 @@ The original data had 563 variables and 10,299 observations. To transform the da
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccMag-mean()
+ + average magnitude of 3-dimension body acceleration using the Euclidean norm
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAccMag-mean()
+ + average magnitude of 3-dimension gravitational acceleration using the Euclidean norm
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccJerkMag-mean()
+ + average magnitude of 3-dimension body acceleration jerk using the Euclidean norm
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroMag-mean()
+ + average magnitude of 3-dimension body gyroscope measurement using the Euclidean norm
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerkMag-mean()
+ + average magnitude of 3-dimension body gyroscope jerk measurement using the Euclidean norm
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-mean()-X
  + x component of the average body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
@@ -171,115 +186,166 @@ The original data had 563 variables and 10,299 observations. To transform the da
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccMag-mean()
+ + average magnitude of body acceleration using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccMag-meanFreq()
+ + average frequency magnitude of body acceleration using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyBodyAccJerkMag-mean()
+ + average magnitude of body acceleration jerk using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyBodyAccJerkMag-meanFreq()
+ + average frequency magnitude of body acceleration jerk using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyBodyGyroMag-mean()
+ + average magnitude of body acceleration using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyBodyGyroMag-meanFreq()
+ + average frequency magnitude of body gyroscope measurement using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyBodyGyroJerkMag-mean()
+ + average magnitude of body gyroscope measurement using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyBodyGyroJerkMag-meanFreq()
+ + average frequency magnitude of body gyroscope measurement using the Euclidean norm after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAcc-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body acceleration measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAcc-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for  body acceleration measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAcc-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for  body acceleration measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tGravityAcc-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body gravitional acceleration measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tGravityAcc-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body gravational acceleration measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tGravityAcc-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body gravitational acceleration measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccJerk-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body acceleration jerk measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccJerk-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body acceleration jerk measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccJerk-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body acceleration jerk measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyro-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body gyroscope measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyro-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body gyroscope measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyro-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body gyroscope measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyroJerk-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body gyroscope jerk measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyroJerk-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body gyroscope jerk measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyroJerk-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body gyroscope measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccMag-std()
+ + magnitude of standard deviation for body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+  
 - tGravityAccMag-std()
+ + magnitude of standard deviation for body gravitational acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+  
 - tBodyAccJerkMag-std()
+ + magnitude of standard deviation for body acceleration jerk measurement
+ + numeric values in the range -1.0 ... 1.0
+  
 - tBodyGyroMag-std()
+ + magnitude of standard deviation for body gyroscope measurement
+ + numeric values in the range -1.0 ... 1.0
+  
 - tBodyGyroJerkMag-std()
+ + magnitude of standard deviation for body gyroscope jerk measurement
+ + numeric values in the range -1.0 ... 1.0
+  
 - fBodyAcc-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-std()-X
- + x component of body acceleration measurement
+ + x component of standard deviation for body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-std()-Y
- + y component of body acceleration measurement
+ + y component of standard deviation for body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-std()-Z
- + z component of body acceleration measurement
+ + z component of standard deviation for body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccMag-std()
+ + magnitude of standard deviation for body acceleration measurement after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+  
 - fBodyBodyAccJerkMag-std()
+ + magnitude of standard deviation for body acceleration jerk measurement after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+  
 - fBodyBodyGyroMag-std()
+ + magnitude of standard deviation for body gyroscope measurement after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+  
 - fBodyBodyGyroJerkMag-std()
+ + magnitude of standard deviation for body gyroscope jerk measurement after applying fast fourier transform
+ + numeric values in the range -1.0 ... 1.0
+  
