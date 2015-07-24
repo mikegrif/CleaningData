@@ -26,7 +26,11 @@ The original data had 563 variables and 10,299 observations. To transform the da
  
 ## Variable Description
 - subject
+-  + integer identifier for each subject
+-  + values varies from 1 to 30
 - activity
+- + descriptive activity performed by each subject
+- + values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
 - tBodyAcc-mean()
 - tGravityAcc-mean()
 - tBodyAccJerk-mean()
