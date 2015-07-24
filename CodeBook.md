@@ -34,63 +34,63 @@ The original data had 563 variables and 10,299 observations. To transform the da
  + values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
 
 - tBodyAcc-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body linear acceleration measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAcc-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body linear acceleration measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAcc-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body linear acceleration measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tGravityAcc-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body gravitational acceleration measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tGravityAcc-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body gravitational acceleration measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tGravityAcc-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body gravitational acceleration measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccJerk-mean()-X  
- + x component of body acceleration measurement
+ + x component of the average body acceleration jerk measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccJerk-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body acceleration jerk measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccJerk-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body acceleration jerk measurement
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyro-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body gyroscope measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyro-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body gyroscope measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyro-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body gyroscope measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyroJerk-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body gyroscope jerk measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyroJerk-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body gyroscope jerk measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyGyroJerk-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body gyroscope jerk measurement in time domain
  + numeric values in the range -1.0 ... 1.0
  
 - tBodyAccMag-mean()
@@ -99,75 +99,75 @@ The original data had 563 variables and 10,299 observations. To transform the da
 - tBodyGyroMag-mean()
 - tBodyGyroJerkMag-mean()
 - fBodyAcc-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-meanFreq()-X
- + x component of body acceleration measurement
+ + x component of the average frequency for the body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-meanFreq()-Y
- + y component of body acceleration measurement
+ + y component of the average frequency for the body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAcc-meanFreq()-Z
- + z component of body acceleration measurement
+ + z component of the average frequency for the body acceleration measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-meanFreq()-X
- + x component of body acceleration measurement
+ + x component of the average frequency of body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-meanFreq()-Y
- + y component of body acceleration measurement
+ + y component of the average frequency of body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccJerk-meanFreq()-Z
- + z component of body acceleration measurement
+ + z component of the average frequency of body acceleration jerk measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-mean()-X
- + x component of body acceleration measurement
+ + x component of the average body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-mean()-Y
- + y component of body acceleration measurement
+ + y component of the average body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-mean()-Z
- + z component of body acceleration measurement
+ + z component of the average body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-meanFreq()-X
- + x component of body acceleration measurement
+ + x component of the average frequency of body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-meanFreq()-Y
- + y component of body acceleration measurement
+ + y component of the average frequency of body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyGyro-meanFreq()-Z
- + z component of body acceleration measurement
+ + z component of the average frequency of body gyroscope measurement after applying fast fourier transform
  + numeric values in the range -1.0 ... 1.0
  
 - fBodyAccMag-mean()
