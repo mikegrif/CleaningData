@@ -34,43 +34,142 @@ The original data had 563 variables and 10,299 observations. To transform the da
  + values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
 
 - tBodyAcc-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAcc-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAcc-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAcc-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAcc-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAcc-mean()-Z
-- tBodyAccJerk-mean()-X
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
+- tBodyAccJerk-mean()-X  
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccJerk-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccJerk-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyro-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyro-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyro-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerk-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerk-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerk-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccMag-mean()
 - tGravityAccMag-mean()
 - tBodyAccJerkMag-mean()
 - tBodyGyroMag-mean()
 - tBodyGyroJerkMag-mean()
 - fBodyAcc-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-meanFreq()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-meanFreq()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-meanFreq()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-meanFreq()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-meanFreq()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-meanFreq()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-mean()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-mean()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-mean()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-meanFreq()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-meanFreq()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-meanFreq()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccMag-mean()
 - fBodyAccMag-meanFreq()
 - fBodyBodyAccJerkMag-mean()
@@ -80,34 +179,106 @@ The original data had 563 variables and 10,299 observations. To transform the da
 - fBodyBodyGyroJerkMag-mean()
 - fBodyBodyGyroJerkMag-meanFreq()
 - tBodyAcc-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAcc-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAcc-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAcc-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAcc-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tGravityAcc-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccJerk-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccJerk-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccJerk-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyro-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyro-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyro-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerk-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerk-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyGyroJerk-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - tBodyAccMag-std()
 - tGravityAccMag-std()
 - tBodyAccJerkMag-std()
 - tBodyGyroMag-std()
 - tBodyGyroJerkMag-std()
 - fBodyAcc-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAcc-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccJerk-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-std()-X
+ + x component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-std()-Y
+ + y component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyGyro-std()-Z
+ + z component of body acceleration measurement
+ + numeric values in the range -1.0 ... 1.0
+ 
 - fBodyAccMag-std()
 - fBodyBodyAccJerkMag-std()
 - fBodyBodyGyroMag-std()
