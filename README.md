@@ -22,16 +22,18 @@ When you run the script, it will call methods within the script to perform each 
    + y_test.txt
    + subject_test.txt
 
+Note:
+You can get the above data files from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 ### Running the Script
-1. Source the script by entering command: *source("run_analysis.R")*
-2. Run the script by entering command: *do_analysis()*
-3. The *do_analysis()* method will do the following:
-   + calls method *getDataset()* to merge the training and test sets into a single dataset. This method will also assign descriptive names to each column in the combined dataset
-   + calls method *getSubDataset()* to create a sub dataset whose column's name has the string "mean()" or "std()"
-   + calls method *setActivityNames()* to set descriptive names for each activities
-   + calls method *tidy_data()* to create a tidy dataset and save it in file *data/tidy_data.txt*
+1. Source the script by entering command: **source("run_analysis.R")**
+2. Run the script by entering command: **do_analysis()**
+3. The **do_analysis()** method will do the following:
+   + calls method **getDataset()** to merge the training and test sets into a single dataset. This method will also assign descriptive names to each column in the combined dataset
+   + calls method **getSubDataset()** to create a sub dataset whose column's name has the string "mean()" or "std()"
+   + calls method **setActivityNames()** to set descriptive names for each activities
+   + calls method **tidy_data()** to create a tidy dataset and save it in file *data/tidy_data.txt*
    
    
 
